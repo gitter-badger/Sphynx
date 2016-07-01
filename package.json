@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/adamisntdead/Sphynx/issues"
   },
-  "homepage": "https://github.com/adamisntdead/Sphynx#readme"
+  "homepage": "https://github.com/adamisntdead/Sphynx#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
