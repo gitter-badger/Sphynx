@@ -4,7 +4,8 @@
   "description": "A Node.js Boilerplate for Well Built Projects",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,16 @@
   },
   "homepage": "https://github.com/adamisntdead/Sphynx#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "compression": "^1.6.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.2.0"
   }
 }
