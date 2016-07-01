@@ -1,0 +1,5 @@
+// Using Air B&B's Javascript Style Guide, You Can Customise, But The
+// Project Is Built Using This Style Guide.
+{
+  "extends": "airbnb"
+}
